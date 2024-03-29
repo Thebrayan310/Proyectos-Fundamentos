@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Piedra, Papel o Tijeras</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='Estilopiedra.css') }}">
+    </head>
+    <body style="background-image: url({{ url_for('static', filename='fondo_piedra.jpg') }}); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+        <h1>Piedra, Papel o Tijeras</h1>
+        <p>Elige tu jugada:</p>
+        {% if error %}
+        <p>{{ error }}</p>
+        {% endif %}
+        <form action="/piedra_papel_tijeras_resultado" method="post" class="opciones">
+            <div class="opcion">
+                <input type="radio" name="eleccion" value="piedra"> Piedra
+            </div>
+            <div class="opcion">
+                <input type="radio" name="eleccion" value="papel"> Papel
+            </div>
+            <div class="opcion">
+                <input type="radio" name="eleccion" value="tijeras"> Tijeras
+            </div>
+            <button type="submit">Jugar</button>
+        </form>
+    </body>
+</html>
+

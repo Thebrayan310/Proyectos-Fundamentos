@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de contraseñas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Estilogenerador.css') }}">
+    <script>
+        function validarFormulario() {
+            var longitud = document.getElementById('longitud').value;
+            if (longitud === '') {
+                alert('Debes seleccionar la cantidad de caracteres.');
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body class="fondo-pagina" style="background-image: url({{ url_for('static', filename='fondo_generador.jpg') }}); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+    <h1>Generador de contraseñas</h1>
+    <br>
+    <form action="/generador_contraseñas" method="post" onsubmit="return validarFormulario();">
+        <label for="longitud">Longitud de la contraseña:</label>
+        <input type="number" name="longitud" id="longitud" min="1" max="50">
+        <label for="incluye_simbolos">Incluir símbolos:</label>
+        <input type="checkbox" name="incluye_simbolos" id="incluye_simbolos">
+        <button type="submit">Generar contraseña</button>
+    </form>
+</body>
+</html>
+
+

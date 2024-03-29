@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Cambia el tipo de letra del cuerpo */
+
+}
+
+/* Estilos para el título principal */
+.titulo-principal {
+    /* Agrega tus estilos de título aquí */
+    font-size: 36px;
+    color: white;
+    font-size: 90px; /* Cambia el tamaño de la fuente del encabezado */
+    border: 2px solid white; /* Define el borde del recuadro */
+    border-radius: 20px; /* Hace que los bordes del recuadro sean redondeados */
+    padding: 10px; /* Añade espacio alrededor del texto dentro del recuadro */
+    width: fit-content; /* Ajusta el ancho del recuadro al contenido */
+    margin: auto; /* Centra el recuadro */
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el color de fondo del recuadro a negro */
+}
+
+/* Estilos para el subtítulo */
+.subtitulo {
+    /* Agrega tus estilos de subtítulo aquí */
+    color: white; /* Cambia el color del texto del párrafo */
+    font-size: 50px;
+    text-align: center; 
+    border: 2px solid white; /* Define el borde del recuadro */
+    border-radius: 20px; /* Hace que los bordes del recuadro sean redondeados */
+    padding: 10px; /* Añade espacio alrededor del texto dentro del recuadro */
+    width: fit-content; /* Ajusta el ancho del recuadro al contenido */
+    margin: auto; /* Centra el recuadro */
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el color de fondo del recuadro a negro */
+}
+
+/* Estilos para la lista de opciones */
+.lista-opciones {
+    /* Agrega tus estilos de lista aquí */
+    color: white; /* Cambia el color del texto del párrafo */
+    font-size: 50px;
+    text-align: center; 
+    border: 2px solid white; /* Define el borde del recuadro */
+    border-radius: 20px; /* Hace que los bordes del recuadro sean redondeados */
+    padding: 10px; /* Añade espacio alrededor del texto dentro del recuadro */
+    width: fit-content; /* Ajusta el ancho del recuadro al contenido */
+    margin: auto; /* Centra el recuadro */
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el color de fondo del recuadro a negro */
+}
+
+/* Estilos para cada opción de la lista */
+.opcion1 {
+    /* Agrega tus estilos para cada elemento de la lista aquí */
+    margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces dentro de las opciones */
+.opcion1 a {
+    /* Agrega tus estilos de enlace aquí */
+    text-decoration: none;
+    color: #f4f5f7;
+    font-weight: bold;
+}
+
+/* Estilos para el enlace cuando se coloca el cursor sobre él */
+.opcion1 a:hover {
+    /* Agrega tus estilos para el hover aquí */
+    color: #0056b3;
+}
+
+/* Estilos para cada opción de la lista */
+.opcion2 {
+    /* Agrega tus estilos para cada elemento de la lista aquí */
+    margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces dentro de las opciones */
+.opcion2 a {
+    /* Agrega tus estilos de enlace aquí */
+    text-decoration: none;
+    color: #f4f5f7;
+    font-weight: bold;
+}
+
+/* Estilos para el enlace cuando se coloca el cursor sobre él */
+.opcion2 a:hover {
+    /* Agrega tus estilos para el hover aquí */
+    color: #0056b3;
+}

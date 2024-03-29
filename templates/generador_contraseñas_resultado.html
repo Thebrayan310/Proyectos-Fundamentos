@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado de Generador de Contraseñas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Estilogenerador.css') }}">
+</head>
+<body class="fondo-pagina" style="background-image: url({{ url_for('static', filename='fondo_generador.jpg') }}); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+    <h1>Resultado de Generador de Contraseñas</h1>
+    <br>
+    <br>
+    
+    {% if contraseña %}
+        <p>Contraseña Generada: {{ contraseña }}</p>
+        <br>
+        <br>
+        <a href="/generador_contraseñas" class="Generador">Generar otra contraseña</a>
+        <br>
+        <br>
+        <br>
+        <a href="/" class="Volver">Volver a la página principal</a>
+    {% endif %}
+</body>
+</html>
+

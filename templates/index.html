@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Estiloprincipal.css') }}">
+</head>
+<body class="fondo-pagina" style="background-image: url({{ url_for('static', filename='fondo_inicio.jpg') }}); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+    <h1 class="titulo-principal">Bienvenido a mi proyecto</h1>
+    <br>
+    <br>
+    <br>
+    <p class="subtitulo">Elige una opción</p>
+    <br>
+    <br>
+    <ul class="lista-opciones">
+        <li class="opcion1"><a href="/generador_contraseñas">Generador de contraseñas</a></li>
+        <br>
+        <li class="opcion2"><a href="/piedra_papel_tijeras">Piedra, papel o tijeras</a></li>
+    </ul>
+</body>
+</html>
+

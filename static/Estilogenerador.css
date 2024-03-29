@@ -1,0 +1,102 @@
+/* Estilo para el cuerpo de la página */
+body.fondo-pagina {
+    font-family: Arial, Helvetica, sans-serif; /* Cambia el tipo de letra del cuerpo */
+    color: #333; /* Cambia el color del texto a un gris oscuro */
+}
+
+/* Estilo para el título h1 */
+h1 {
+    font-size: 36px;
+    color: white;
+    font-size: 90px; /* Cambia el tamaño de la fuente del encabezado */
+    border: 2px solid white; /* Define el borde del recuadro */
+    border-radius: 20px; /* Hace que los bordes del recuadro sean redondeados */
+    padding: 10px; /* Añade espacio alrededor del texto dentro del recuadro */
+    width: fit-content; /* Ajusta el ancho del recuadro al contenido */
+    margin: auto; /* Centra el recuadro */
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el color de fondo del recuadro a negro */
+}
+
+p{
+    color: white;
+}
+
+/* Estilo para el formulario */
+form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white; /* Define el borde del recuadro */
+    border-radius: 20px; /* Hace que los bordes del recuadro sean redondeados */
+    padding: 10px; /* Añade espacio alrededor del texto dentro del recuadro */
+    width: fit-content; /* Ajusta el ancho del recuadro al contenido */
+    margin: auto; /* Centra el recuadro */
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el color de fondo del recuadro a negro */
+}
+
+/* Estilo para las etiquetas de los campos del formulario */
+form label {
+    font-weight: bold; /* Hace el texto en negrita */
+}
+
+/* Estilo para los campos de entrada del formulario */
+form input {
+    margin: 10px 0; /* Añade un margen arriba y abajo */
+}
+
+/* Estilo para el botón de enviar del formulario */
+form button {
+    background-color: #4CAF50; /* Cambia el color de fondo a verde */
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 15px 32px; /* Añade padding */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Elimina la decoración del texto */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+p{
+    font-size: 36px;
+    color: white;
+    font-size: 40px; /* Cambia el tamaño de la fuente del encabezado */
+    border: 2px solid white; /* Define el borde del recuadro */
+    border-radius: 20px; /* Hace que los bordes del recuadro sean redondeados */
+    padding: 10px; /* Añade espacio alrededor del texto dentro del recuadro */
+    width: fit-content; /* Ajusta el ancho del recuadro al contenido */
+    margin: auto; /* Centra el recuadro */
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el color de fondo del recuadro a negro */
+}
+
+.Generador {
+    color: white; /* Cambia esto a tu color preferido */
+    text-decoration: none; /* Esto elimina el subrayado */
+    border: 2px solid white; /* Define el borde del recuadro */
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el color de fondo del recuadro a negro */
+    width: fit-content; /* Ajusta el ancho del recuadro al contenido */
+    border-radius: 20px; /* Hace que los bordes del recuadro sean redondeados */
+    padding: 10px; /* Añade espacio alrededor del contenido */
+    margin-bottom: 10px; /* Añade espacio debajo del botón */
+}
+
+.Generador:hover {
+    color: lightgray; /* Cambia esto a tu color preferido */
+}
+
+
+.Volver {
+    color: white; /* Cambia esto a tu color preferido */
+    text-decoration: none; /* Esto elimina el subrayado */
+    border: 2px solid white; /* Define el borde del recuadro */
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el color de fondo del recuadro a negro */
+    width: fit-content; /* Ajusta el ancho del recuadro al contenido */
+    border-radius: 20px; /* Hace que los bordes del recuadro sean redondeados */
+    padding: 10px; /* Añade espacio alrededor del contenido */
+    margin-bottom: 10px; /* Añade espacio debajo del botón */
+}
+
+.Volver:hover {
+    color: lightgray; /* Cambia esto a tu color preferido */
+}

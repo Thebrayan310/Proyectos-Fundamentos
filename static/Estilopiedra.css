@@ -1,0 +1,58 @@
+body {
+    font-family: Comic Sans MS; /* Cambia el tipo de letra del cuerpo */
+
+}
+
+h1 {
+    color: white; /* Cambia el color del texto del encabezado */
+    font-size: 90px; /* Cambia el tamaño de la fuente del encabezado */
+    border: 2px solid white; /* Define el borde del recuadro */
+    border-radius: 20px; /* Hace que los bordes del recuadro sean redondeados */
+    padding: 10px; /* Añade espacio alrededor del texto dentro del recuadro */
+    width: fit-content; /* Ajusta el ancho del recuadro al contenido */
+    margin: auto; /* Centra el recuadro */
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el color de fondo del recuadro a negro */
+}
+
+p {
+    font-family: Comic Sans MS;/* Cambia el tipo de letra del párrafo */
+    color: white; /* Cambia el color del texto del párrafo */
+    font-size: 50px;
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el color de fondo del recuadro a negro */
+    border: 2px solid white; /* Define el borde del recuadro */
+    border-radius: 20px; /* Hace que los bordes del recuadro sean redondeados */
+    
+}
+
+.opciones {
+    display: flex; /* Hace que los elementos hijos se muestren en línea */
+    justify-content: space-around; /* Distribuye el espacio alrededor de los elementos de manera uniforme */
+    gap: 10px; /* Añade espacio entre los elementos hijos */
+    color: white;
+    
+    
+}
+
+.opcion {
+    border: 2px solid white; /* Define el borde del cuadro */
+    border-radius: 10px; /* Hace que los bordes del cuadro sean redondeados */
+    padding: 10px; /* Añade espacio alrededor del texto dentro del cuadro */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: #0d6ae4b0; /* Cambia el color de fondo del botón */
+    color: white; /* Cambia el color del texto del botón */
+    padding: 15px 32px; /* Añade relleno al botón */
+    text-align: center; /* Centra el texto del botón */
+    text-decoration: none; /* Elimina la decoración del texto del botón */
+    border-radius: 20px; /* Hace que los bordes del recuadro sean redondeados */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid white;
+    font-family: Comic Sans MS;
+}
+
